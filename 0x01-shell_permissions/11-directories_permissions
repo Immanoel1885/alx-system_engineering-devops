@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find ./ -type d -exec chmod g+x,o+x,u+x,a+x {} \
+sudo find ./ -type d -exec chmod 111 {} \
