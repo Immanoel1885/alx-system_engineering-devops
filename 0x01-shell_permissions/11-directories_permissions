@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +x  d ../0x01-shell_permissionies
+chmod +x $(../0x01-shell_permissionies -type d)
