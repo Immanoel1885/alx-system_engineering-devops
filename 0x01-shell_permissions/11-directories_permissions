@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find ../11-directories_permissions -type d -exec chmod 111 {} \ 
+do find ./ -type d -exec chmod +x {} \
